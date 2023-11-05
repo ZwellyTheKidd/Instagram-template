@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@%5E1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Instagram</title>
+</head>
+<body class="p-0 m-0 flex-col bg-gray-100">
+
+
+    <!-- The Kidd  +++ 25/08/23 ------------------------------------------------------------------>
+    <div class="z-10 h-24 bg-white w-full fixed left-0 right-0 top-0 px-24 shadow-lg flex flex-row justify-between items-center pt-[35px]">
+
+        <a href="index.html" class="flex items-center">
+            <img class="h-16 w-auto" src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram.png" alt="">
+         
+        </a>
+        
+        <!--search bar ----------------->
+        <div class="flex items-center rounded-md border-2 text-gray-400 bg-gray-50 font-medium gap-2 h-[35px] ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search flex w-[50%] pl-10" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            <input class="bg-gray-50 w-[50%] " type="text" placeholder="Search">
+        </div>
+
+        <!--right nav icons --------------->
+        <div class="flex flex-row gap-6 flex items-center">
+            <a href="index.html" class="active:text-pink-600">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door w-6 h-6" viewBox="0 0 16 16">
+                    <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
+                  </svg></a>
+
+              <div class="flex flex-row">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send w-6 h-6" viewBox="0 0 16 16">
+                  <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+                </svg>
+                <p class="bg-red-400 rounded-full h-6 w-6 flex items-center justify-center text-xs text-white absolute ml-[11px] top-12">1</p>
+              </div>
+
+              <div class="">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm306.7 69.1L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg>
+              </div>
+
+              <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart w-6 h-6" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                  </svg>
+              </div>
+
+              <a href="profile.html" class="w-8 h-9 bg-gray-50 rounded-full">
+            <img
+            class="w-8 h-9 object-cover rounded-full"
+            src="https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3386&q=80"
+            alt=""/>
+              </a>
+
+
+        </div>
+
+    </div>
+
+    <!-- Main Div -------------------------------------------------------------------------------->
+    <div class="flex bg-white border-2 border-gray-400 rounded-md mx-48 mt-28  mb-6 ">
+
+        <!-- Lory +++ 25/08/23 ------------------------------------------------------------------>
+        <!-- Left Div --------------------->
+        <div class="flex-col gap-4 border-r-2 border-gray-200 w-[15rem]">
+            <div class="flex-col space-y-7  ">
+                
+                <p class="text-md font-semibold text-gray-600 border-l-4 border-black px-8 py-2 rounded-t h-10">Edit profile</p>
+                <a href="professional_account.html"><p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Professional Account</p></a>
+                <p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Change Password</p>
+                <p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Apps and Website</p>
+                <p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Email and SMS</p>
+                <p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Privacy and Security</p>
+                <p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Login and Activity</p>
+                <p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Emails from Instagram</p>
+                </div>
+
+        </div>
+        
+        <!--right div  -------------------->
+        <div class="flex-col gap-4 justify-center flex-1">
+
+            <!-- Millie +++ 25/08/23 ------------------------------------------------------------------>
+            <div class="flex  items-center mt-8 px-8 pt-4">
+                <div class="rounded-full p-1  ">
+                  <img
+                    class="w-28 h-28 object-cover border-2 border-gray-50 rounded-full"
+                    src="https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3386&q=80"
+                    alt=""
+                  />
+                  <p class="h-10 w-10 bg-white absolute ml-[5rem] top-[10rem] rounded-full flex justify-center items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill text-blue-500 h-6 w-6" viewBox="0 0 16 16">
+                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                      </svg>
+                </p>
+                 
+                </div>
+                
+                <div class="ml-5 "  ><h2 class="font-medium">milcent malatji</h2> 
+                <p class="text-gray-400 mt-3">https://www.instagram.com/<span class="text-blue-500">milcent_malatji</span><br>
+                </div><br></p>
+              </div>
+
+
+            
+              <!-- Slindelo +++ 25/08/23 ------------------------------------------------------------------>
+              <div class="px-8 pt-4 flex-col  justify-center">
+                <div>
+                    <div class="p-4 flex items-center justify-between mt-3">
+
+                        <p class="font-semibold mb-8">Name</p>
+                        <div class="flex flex-col justify-center gap-2 ">
+                        <input type="text" class=" w-[22.55rem] p-2 rounded-md border-2 border-gray-200" placeholder="Name">
+                        <p class="text-gray-400 text-xs"> Help people discover your account by using the name you're 
+                            <br>known by: either your full name, nickname, or business name.
+                            <br><br> 
+                            You can only change your name twice within 14 days.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="p-4 flex items-center justify-between mt-3">
+                        <p class="font-semibold mb-8">Username</p>
+                        <div class="flex flex-col justify-center gap-2 ">
+                        <input type="text" class=" w-[22.55rem] p-2 rounded-md border-2 border-gray-200" placeholder="Username">
+                        <p class="text-gray-400 text-xs">In most cases, you'll be able to change your username back to<br>jessie_johnson for another 14 days. 
+                            <span class="text-blue-500 font-bold">Learn More</span></p>
+                        </div>
+                    
+                    </div>
+                    <div class="p-4 flex items-center justify-between mt-3">
+                        <p class="font-semibold ">Website</p>
+                        <input type="text" class=" w-[22.55rem] p-2 rounded-md border-2 border-gray-200" placeholder="Website">
+                    </div>
+
+                    <div class="p-4 flex items-center justify-between mt-3">
+                        <p class="font-semibold">Bio</p>
+                        <input type="text" class=" w-[22.55rem] p-2 rounded-md border-2 border-gray-200" placeholder="Bio">
+                    </div>
+                </div>
+
+            </div>
+     
+            
+            
+              <!-- Intel +++ 25/08/23 ------------------------------------------------------------------>
+            <div class="bg-sky-50 px-8 pt-4 flex-col  justify-center">
+
+                <div class="p-4 border-b-2 border-gray-200 ">
+                    <p class="font-bold font-black text-xl">Personal Information</p>
+                    <p class="text-gray-400 text-sm">in most cases, you'll be able to change your username to 
+                        back to jesie_johnson after 14 days. <span class="text-blue-500 font-bold">Learn More</span>
+                    </p>
+                </div>
+                <!-- forms -------------->
+                <div>
+                    <div class="p-4 flex items-center justify-between mt-3">
+                        <p class="font-semibold">Email</p>
+                        <input type="text" class=" w-[22.55rem] p-2 rounded-md border-2 border-gray-200" placeholder="Email">
+                    </div>
+
+                    <div class="p-4 flex items-center justify-between mt-3">
+                        <p class="font-semibold">Username</p>
+                        <div class="flex flex-col justify-center gap-2 ">
+                        <input type="text" class=" w-[22.55rem] p-2 rounded-md border-2 border-gray-200" placeholder="Username">
+                        <p class="text-gray-400 text-xs">In most cases, you'll be able to change your username back to<br>jessie_johnson for another 14 days. 
+                            <span class="text-blue-500 font-bold">Learn More</span></p>
+                        </div>
+                       
+                    </div>
+                    <div class="p-4 flex items-center justify-between mt-3">
+                        <p class="font-semibold">Website</p>
+                        <input type="text" class=" w-[22.55rem] p-2 rounded-md border-2 border-gray-200" placeholder="Website">
+                    </div>
+
+                    <div class="p-4 flex items-center justify-between mt-3">
+                        <p class="font-semibold">Bio</p>
+                        <input type="text" class=" w-[22.55rem] p-2 rounded-md border-2 border-gray-200" placeholder="Bio">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+
+</body>
+</html>
