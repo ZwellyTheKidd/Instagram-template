@@ -1,0 +1,102 @@
+@media all and (max-width: 475px){
+   
+    
+
+} /*xs*/
+
+@media all and (min-width: 476px){
+    
+}
+
+@media (max-width: 640px){
+    .hide-sm{
+        display: none;
+    }
+    .left-div{
+        display: none;
+    }
+    .resize-img{
+    
+        width: 5rem;
+        height: 5rem;
+        
+    }
+    .down-icon {
+        display:inline-flex;
+    }
+
+
+} /*sm*/
+@media (min-width: 641px){
+    
+    .down-icon {
+        display: none;
+    }
+} /*sm*/
+
+
+@media (max-width: 768px){
+
+    .hide-md{
+        display: none;
+    }
+    .left-div{
+        width: 10%; 
+    }
+   
+
+
+} /*md*/
+
+@media (max-width: 1024px){
+    .right-div{
+        display: none;
+    }
+    .middle-div{
+        flex: 1;
+    }
+    .middle-sec{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+   
+    .hide-lg{
+        display: none;
+    }
+    
+    /* .resize-img{
+        width: 6rem;
+        height: 6rem;
+
+
+    } */
+
+} /*lg*/
+
+@media (max-width: 1280px){
+
+    .add-btn{
+        display: inline-block;
+        width: fit-content;
+    }
+    
+} /*xl*/
+@media (max-width: 1397px){
+
+    .hide-xl{
+        display: none;
+    }
+
+}
+@media (min-width: 1397px){
+
+    .add-btn{
+        display: none;
+
+    }
+
+}
+
+@media (max-width: 1536px){
+  
+} /*2xl*/
