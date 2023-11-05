@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en">
+  <head>
+    <title>Insta Clone</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@%5E1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style> 
+        .no-scrollbar::-webkit-scrollbar { 
+            display: none; 
+        } 
+    </style> 
+  </head>
+  <body class="">
+    <!-- profile blog -->
+            <div class="flex h-screen fixed left-0 right-0 top-0">
+                    <!-- left side ------------------------------------------------------------->
+                    <div class="w-1/5 border-r-2 border-gray-100">
+                        <div class=" grid items-center">
+                            <a href="index.html" class="w-28 mx-20 mt-4">            
+                                <img src="https://www.edigitalagency.com.au/wp-content/uploads/Instagram-logo-black-white-horizontal-png.png" alt="">          
+                            </a>
+                        
+
+                        <!-- Left Menu -->
+                        <div class="h-96 text-gray-400 flex-col border-b-2 border-gray-100 p-4 pl-0">
+                            <a href="index.html" class="flex gap-4 mt-6 px-4 active:text-pink-600 active:border-l-4 active:border-pink-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 ml-4">
+                                <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                                <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                                </svg>
+                                            
+                                <p>Feed</p>
+                            </a>
+                            <div class="flex gap-4 mt-6 px-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+                                </svg>
+                                <p>Explore</p>  
+                            </div>
+                            <a href="saved.html" class="flex gap-4 mt-6 px-4 active:text-pink-600 active:border-l-4 active:border-pink-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+                                </svg>
+                                <p>My Favorites</p>
+                            </a>
+                            <div class="flex gap-4 mt-6 px-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                                </svg>
+                                <p>Direct</p>              
+                            </div>
+                            <div class="flex gap-4 mt-6 px-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z" />
+                                </svg>
+                                <p>IG TV</p>
+                            </div>
+                            <div class="flex gap-4 mt-6 px-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
+                                </svg>
+                                <p>Stats</p>
+                            </div>
+                            <a href="settings.html" class="flex gap-4 mt-5 px-4 active:text-pink-600 active:border-l-4 active:border-pink-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 01.12-1.45l.773-.773a1.125 1.125 0 011.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>              
+                                <p>Settings</p>
+                            </a>
+                        </div>
+                        <a href="login.html" class="flex text-gray-400 gap-4 mt-6 px-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 ml-4">
+                            <path fill-rule="evenodd" d="M7.5 3.75A1.5 1.5 0 006 5.25v13.5a1.5 1.5 0 001.5 1.5h6a1.5 1.5 0 001.5-1.5V15a.75.75 0 011.5 0v3.75a3 3 0 01-3 3h-6a3 3 0 01-3-3V5.25a3 3 0 013-3h6a3 3 0 013 3V9A.75.75 0 0115 9V5.25a1.5 1.5 0 00-1.5-1.5h-6zm10.72 4.72a.75.75 0 011.06 0l3 3a.75.75 0 010 1.06l-3 3a.75.75 0 11-1.06-1.06l1.72-1.72H9a.75.75 0 010-1.5h10.94l-1.72-1.72a.75.75 0 010-1.06z" clip-rule="evenodd" />
+                            </svg>
+                            <p>Log out</p>
+                        </a>
+                        </div>
+                    </div>
+                    <!-- middle ------------------------------------------------------------------>
+                    <div class=" flex flex-col">   
+
+                                <!-- Main section ----------------------------------------------------------->
+                        <div class=" relative pl-28 pr-[24rem] pt-10 pb-2 w-screen no-scrollbar overflow-y-scroll ">
+                                
+                                <!-- Profile pic and Bio Info -->
+                                <div class="flex gap-[10rem] items-center pl-6">
+
+                                    <!-- profile pic -->
+                                        <div class="">
+                                            <div class="rounded-full">
+                                                <div class="w-48 h-48">
+                                                <img class=" w-48 h-48 object-cover rounded-full"
+                                                src="https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3386&q=80"
+                                                alt=""/>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- profile information -->
+                                        <div class=" flex flex-col gap-6 ">
+                                            <div class="flex items-center gap-4">
+                                                <p class="font-medium text-xl">lindi_so</p>
+                                                <div class="flex gap-2 h-10"> 
+                                                    <button class="font-semibold bg-gray-100 p-2 rounded-md">
+                                                        Edit Profile
+                                                    </button>
+                                                    <button class="font-semibold bg-gray-100 p-2 rounded-md">
+                                                        Move Archive
+                                                    </button>
+                                                    <button class="font-semibold bg-gray-100 p-2 rounded-md">
+                                                        Ad tools
+                                                    </button>
+                                                </div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class=" bi bi-gear-wide" viewBox="0 0 16 16">
+                                                    <path d="M8.932.727c-.243-.97-1.62-.97-1.864 0l-.071.286a.96.96 0 0 1-1.622.434l-.205-.211c-.695-.719-1.888-.03-1.613.931l.08.284a.96.96 0 0 1-1.186 1.187l-.284-.081c-.96-.275-1.65.918-.931 1.613l.211.205a.96.96 0 0 1-.434 1.622l-.286.071c-.97.243-.97 1.62 0 1.864l.286.071a.96.96 0 0 1 .434 1.622l-.211.205c-.719.695-.03 1.888.931 1.613l.284-.08a.96.96 0 0 1 1.187 1.187l-.081.283c-.275.96.918 1.65 1.613.931l.205-.211a.96.96 0 0 1 1.622.434l.071.286c.243.97 1.62.97 1.864 0l.071-.286a.96.96 0 0 1 1.622-.434l.205.211c.695.719 1.888.03 1.613-.931l-.08-.284a.96.96 0 0 1 1.187-1.187l.283.081c.96.275 1.65-.918.931-1.613l-.211-.205a.96.96 0 0 1 .434-1.622l.286-.071c.97-.243.97-1.62 0-1.864l-.286-.071a.96.96 0 0 1-.434-1.622l.211-.205c.719-.695.03-1.888-.931-1.613l-.284.08a.96.96 0 0 1-1.187-1.186l.081-.284c.275-.96-.918-1.65-1.613-.931l-.205.211a.96.96 0 0 1-1.622-.434L8.932.727zM8 12.997a4.998 4.998 0 1 1 0-9.995 4.998 4.998 0 0 1 0 9.996z"/>
+                                                </svg>
+                                            </div>
+
+                                            <div class="flex gap-12 font-medium">
+                                                <p>
+                                                    <span class="font-bold">9</span> posts
+    
+                                                </p>
+                                                <p>
+                                                    <span class="font-bold">2,023</span> followers
+    
+                                                </p>
+                                                <p>
+                                                    <span class="font-bold">123</span> following
+    
+                                                </p>
+                                            </div>
+
+                                            <div class="flex flex-col gap-2">
+                                                <p><span class="font-bold">Matty Petty</span>  &nbsp;&nbsp;&nbsp;&nbsp; 
+                                                    <span class="text-gray-400">she/her</span></p>
+                                                
+                                                <button class="h-8 w-24 font-semibold bg-gray-100 items-center rounded-full">
+                                                    @lindi_so
+                                                </button>
+
+                                            </div>
+                                            <p class="font-light">IT(Software Developer)</p>
+                                            <p>1.4K accounts reached in the last 30 days. <span class="font-bold">View Insights</span></p>
+
+                                        </div>
+
+                                </div>
+                                <!-- highlights ----------------->
+
+                                <div class=" border-b-[0.05rem] border-gray-300 pb-20  flex w-[100%] flex-row gap-8 mt-10 no-scrollbar  overflow-x-scroll ">
+
+
+                                    <div class="flex flex-col items-center justify-center">
+                                        <div
+                                        class="bg-gray-400 rounded-full p-[0.05rem]"
+                                        >
+                                        <div class="w-24 h-24">
+                                            <img
+                                            class="w-24 h-24 object-cover border-4 border-gray-50 rounded-full"
+                                            src="https://images.unsplash.com/photo-1539701938214-0d9736e1c16b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3415&q=80"
+                                            alt=""
+                                            />
+                                        </div>
+                                        </div>
+                                        <div class="mt-2">Weekend</div>
+                                    </div>
+                        
+                                    <div class="flex flex-col items-center justify-center">
+                                        <div
+                                        class="bg-gray-400 rounded-full p-[0.05rem]"
+                                        >
+                                        <div class="w-24 h-24">
+                                        <img
+                                            class="w-24 h-24 object-cover border-4 border-gray-50 rounded-full"
+                                            src="https://images.unsplash.com/photo-1620794108219-aedbaded4eea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80"
+                                            alt=""
+                                        /></div>
+                                        </div>
+                                        <div class="mt-2">Thursday</div>
+                                    </div>
+
+                                    <div class="flex flex-col items-center justify-center">
+                                        <div
+                                        class="bg-gray-400 rounded-full p-[0.05rem]"
+                                        >
+                                        <div class="w-24 h-24">
+                                            <img
+                                            class="w-24 h-24 object-cover border-4 border-gray-50 rounded-full"
+                                            src="https://media.istockphoto.com/id/1304289911/photo/my-vision-of-female-face.jpg?s=612x612&w=0&k=20&c=PqJ9iL628RILnaVYcCWSFqLj4IxVR7826Lt9t8FknOo="
+                                            alt=""
+                                            />
+                                        </div>
+                                        </div>
+                                        <div class="mt-2">Friends</div>
+                                    </div>
+
+                                    <div class="flex flex-col items-center justify-center">
+                                    <div
+                                        class="bg-gray-400 rounded-full p-[0.05rem]"
+                                    >
+                                    <div class="w-24 h-24">
+                                        <img
+                                        class="w-24 h-24 object-cover border-4 border-gray-50 rounded-full"
+                                        src="https://plus.unsplash.com/premium_photo-1664867432842-16ae7a30aabd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3328&q=80"
+                                        alt=""
+                                        />
+                                        </div>
+                                    </div>
+                                    <div class="mt-2">Family</div>
+                                    </div>
+                                    
+                                    <div class="flex flex-col items-center justify-center">
+                                    <div
+                                        class="bg-gray-400 rounded-full p-[0.05rem]"
+                                    >
+                                    <div class="w-24 h-24">
+                                        <img
+                                        class="w-24 h-24 object-cover border-4 border-gray-50 rounded-full"
+                                        src="https://cdn.pixabay.com/photo/2017/08/30/12/45/girl-2696947_1280.jpg"
+                                        alt=""
+                                        /></div>
+                                    </div>
+                                    <div class="mt-2">Work</div>
+                                    </div>
+
+                                    <div class="flex flex-col items-center justify-center">
+                                    <div
+                                        class="bg-gray-400 rounded-full p-[0.05rem]"
+                                    >
+                                        <div class="w-24 h-24">
+                                        <img
+                                            class="w-24 h-24 object-cover border-4 border-gray-50 rounded-full"
+                                            src="https://atd-blogs.s3.us-east-2.amazonaws.com/wp-content/uploads/2022/05/16150415/4-cool-iphone-wallpapers-1024x576.webp"
+                                            alt=""
+                                        />
+                                        </div>
+                                    </div>
+                                    <div class="mt-2">Birthday</div>
+                                    </div>
+
+                                    <div class="flex flex-col items-center justify-center">
+                                    <div
+                                        class="bg-gray-400 rounded-full p-[0.05rem]"
+                                    >
+                                    <div class="w-24 h-24">
+                                        <img
+                                        class="w-24 h-24 object-cover border-4 border-gray-50 rounded-full"
+                                        src="https://imgs.search.brave.com/cAA_XBQPPi0jTmgxq072yjQ2APOwKNsK7Kf9pUsH9bA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJkdW1wLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/My8wNC9Db29sLUlt/YWdlLTU4Nng1ODYu/anBn"
+                                        alt=""
+                                        />
+                                    </div></div>
+                                    <div class="mt-2">Tuesday</div>
+                                    </div>
+
+                                    <div class="flex flex-col items-center justify-center">
+                                        <div
+                                        class="bg-gray-400 rounded-full p-[0.05rem]"
+                                        >
+                                        <div
+                                            class="w-24 h-24 bg-gray-50 rounded-full flex justify-center text-4xl items-center"
+                                        >
+                                            +
+                                        </div>
+                                        </div>
+                                        <div class="mt-2">New</div>
+                                    </div>
+
+                             
+                                </div>
+                                
+                                <!-- Posts -->
+                                <div class="flex justify-center gap-20">
+                                    <a href="" class=" border-t-2 border-black font-medium flex gap-2 items-center p-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-border-all" viewBox="0 0 16 16">
+                                            <path d="M0 0h16v16H0V0zm1 1v6.5h6.5V1H1zm7.5 0v6.5H15V1H8.5zM15 8.5H8.5V15H15V8.5zM7.5 15V8.5H1V15h6.5z"/>
+                                        </svg>
+                                        <p>Posts</p>
+                                    </a>
+
+                                    <a href="" class="text-gray-400 font-medium flex gap-2 items-center p-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-webcam" viewBox="0 0 16 16">
+                                            <path d="M0 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H9.269c.144.162.33.324.531.475a6.785 6.785 0 0 0 .907.57l.014.006.003.002A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.224-.947l.003-.002.014-.007a4.473 4.473 0 0 0 .268-.148 6.75 6.75 0 0 0 .639-.421c.2-.15.387-.313.531-.475H2a2 2 0 0 1-2-2V6Zm2-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H2Z"/>
+                                            <path d="M8 6.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0Zm7 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
+                                        </svg>
+                                        <p>Reels</p>
+                                    </a>
+
+                                    <a href="" class="text-gray-400 font-medium flex gap-2 items-center p-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-rolodex" viewBox="0 0 16 16">
+                                            <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                                            <path d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1H1Zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1V2Z"/>
+                                        </svg>
+                                        <p>Tagged</p>
+                                    </a>
+
+                                </div>
+                                    <!-- Pic -->
+                                <div class="flex flex-wrap w-[100%] gap-1">
+                                    <div class="relative w-[19.5rem] h-[19.5rem] ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute mt-2 ml-[17rem]" fill="#ffff" width="24" height="24" viewBox="0 0 24 24">
+                                            <path d="M22 6v16h-16v-16h16zm2-2h-20v20h20v-20zm-24 17v-21h21v2h-19v19h-2z"/>
+                                        </svg>
+                                        <img  src="https://people.com/thmb/cQYpJYWcHGkPEUkF-PgzYKTWxlA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/lady-gaga-joker-040623-5025126d9dbc4b56a173ecfc56d25c3c.jpg
+                                        " alt="" class="object-cover w-[19.5rem] h-[19.5rem]">
+
+                                    </div>
+                
+                                    <div class=" relative w-[19.5rem] h-[19.5rem] ">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute mt-2 ml-[17rem]" fill="#ffff" width="24" height="24" viewBox="0 0 24 24">
+                                            <path d="M22 6v16h-16v-16h16zm2-2h-20v20h20v-20zm-24 17v-21h21v2h-19v19h-2z"/>
+                                        </svg>
+                                        <img  src="https://lh3.googleusercontent.com/t6CMjvql4ZyTLtasujK1FQQei-ILxQJMarScQN9udCG2lXk1W4_3hClr-XZreJ18BiUX4v2lB8TuWiuOAcAIye7y1IvoYmo81JE=s1500-pp" alt="" class="object-cover w-[19.5rem] h-[19.5rem]">
+
+                                    </div>
+
+                                    <div class=" relative w-[19.5rem] h-[19.5rem] ">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute mt-2 ml-[17rem]" fill="#ffff" width="24" height="24" viewBox="0 0 24 24">
+                                            <path d="M22 6v16h-16v-16h16zm2-2h-20v20h20v-20zm-24 17v-21h21v2h-19v19h-2z"/>
+                                        </svg>
+                                        <img  src="https://www.bp4ublog.com/wp-content/uploads/2022/04/male-poses-walking.png" alt="" class="object-cover w-[19.5rem] h-[19.5rem]">
+
+                                    </div>
+
+                                    <div class=" relative w-[19.5rem] h-[19.5rem] ">
+ 
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute mt-2 ml-[17rem]" fill="#ffff" width="24" height="24" viewBox="0 0 24 24">
+                                            <path d="M22 6v16h-16v-16h16zm2-2h-20v20h20v-20zm-24 17v-21h21v2h-19v19h-2z"/>
+                                        </svg>
+                                        <img  src="https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3386&q=80
+                                        " alt="" class="object-cover w-[19.5rem] h-[19.5rem]">
+
+                                    </div>
+
+                                    <div class="relative w-[19.5rem] h-[19.5rem] ">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute mt-2 ml-[17rem]" fill="#ffff" width="24" height="24" viewBox="0 0 24 24">
+                                            <path d="M22 6v16h-16v-16h16zm2-2h-20v20h20v-20zm-24 17v-21h21v2h-19v19h-2z"/>
+                                        </svg>
+                                        <img  src="https://images.unsplash.com/photo-1539701938214-0d9736e1c16b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3415&q=80
+                                        " alt="" class="object-cover w-[19.5rem] h-[19.5rem]">
+
+                                    </div>
+
+                                    <div class="relative w-[19.5rem] h-[19.5rem] ">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute mt-2 ml-[17rem]" fill="#ffff" width="24" height="24" viewBox="0 0 24 24">
+                                            <path d="M22 6v16h-16v-16h16zm2-2h-20v20h20v-20zm-24 17v-21h21v2h-19v19h-2z"/>
+                                        </svg>
+                                        <img  src="https://images.unsplash.com/photo-1620794108219-aedbaded4eea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80
+                                        " alt="" class="object-cover w-[19.5rem] h-[19.5rem]">
+
+                                    </div>
+
+                                    <div class="relative w-[19.5rem] h-[19.5rem]">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute mt-2 ml-[17rem]" fill="#ffff" width="24" height="24" viewBox="0 0 24 24">
+                                            <path d="M22 6v16h-16v-16h16zm2-2h-20v20h20v-20zm-24 17v-21h21v2h-19v19h-2z"/>
+                                        </svg>
+                                        <img  src="https://plus.unsplash.com/premium_photo-1664867432842-16ae7a30aabd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3328&q=80
+                                        " alt="" class="object-cover w-[19.5rem] h-[19.5rem] ">
+
+                                    </div>
+
+                                    <div class="relative w-[19.5rem] h-[19.5rem] ">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute mt-2 ml-[17rem]" fill="#ffff" width="24" height="24" viewBox="0 0 24 24">
+                                            <path d="M22 6v16h-16v-16h16zm2-2h-20v20h20v-20zm-24 17v-21h21v2h-19v19h-2z"/>
+                                        </svg>
+                                        <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgOooy-oGgUxMla2_wT1A8HzVjlGCCZqhIm6VsAVpSFeh3YK1xHNJjA3Rg7fPUn_6tFX0&usqp=CAU" alt="" class="object-cover w-[19.5rem] h-[19.5rem]">
+
+                                    </div>
+
+                                    <div class=" relative w-[19.5rem] h-[19.5rem] ">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="absolute mt-2 ml-[17rem]" fill="#ffff" width="24" height="24" viewBox="0 0 24 24">
+                                            <path d="M22 6v16h-16v-16h16zm2-2h-20v20h20v-20zm-24 17v-21h21v2h-19v19h-2z"/>
+                                        </svg>
+                                        <img  src="https://www.nichemarket.co.za/admin/Content/images/metaDisplayImages/fashion-hashtag-trends-805x452.jpeg
+                                        " alt="" class="object-cover w-[19.5rem] h-[19.5rem]">
+
+                                    </div>
+                                </div>
+
+                                <div class="mt-6 text-xs text-gray-500">
+                                    <div class="mx-10 "> Meta &nbsp;&nbsp;&nbsp;&nbsp; About &nbsp;&nbsp;&nbsp;&nbsp;  Blog 
+                                        &nbsp;&nbsp;&nbsp;&nbsp;  Jobs &nbsp;&nbsp;&nbsp;&nbsp;  Help &nbsp;&nbsp;&nbsp;&nbsp;  API 
+                                        &nbsp;&nbsp;&nbsp;&nbsp; Privacy &nbsp;&nbsp;&nbsp;&nbsp;  Terms &nbsp;&nbsp;&nbsp;&nbsp;  Location 
+                                        &nbsp;&nbsp;&nbsp;&nbsp;  InstagramLite
+                                        &nbsp;&nbsp;&nbsp;&nbsp; Contact uploading and non-users &nbsp;&nbsp;&nbsp;&nbsp; Meta Verified 
+                                    </div>
+
+                                    <div class="flex mt-4 ml-[37%] gap-1 items-center">
+                                        <p class="">English(UK)</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                          </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="ml-2 bi bi-c-circle" viewBox="0 0 16 16">
+                                            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+                                        </svg>
+                                       <p class="">2023 Instagram from Meta</p>
+                                    </div>
+
+
+                                </div>
+
+                        </div>
+                    </div>
+                        
+                
+        </div>
+
+
+        
+  </body>
+</html>
