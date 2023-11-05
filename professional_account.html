@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@%5E1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Instagram</title>
+</head>
+
+<body class="p-0 m-0 flex-col bg-gray-100">
+    <!-- The Kidd -->
+    <div
+        class="z-10 h-24 bg-white w-full fixed left-0 right-0 top-0 px-24 shadow-lg flex flex-row justify-between items-center pt-[35px]">
+
+        <a href="index.html" class="flex items-center">
+            <img class="h-16 w-auto" src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram.png" alt="">
+
+        </a>
+
+        <div class="flex items-center rounded-md border-2 text-gray-400 bg-gray-50 font-medium gap-2 h-[35px] ">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-search flex w-[50%] pl-10" viewBox="0 0 16 16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+            <input class="bg-gray-50 w-[50%] " type="text" placeholder="Search">
+        </div>
+
+        <div class="flex flex-row gap-6 flex items-center">
+            <a href="index.html" class="active:text-pink-600">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-house-door w-6 h-6" viewBox="0 0 16 16">
+                    <path
+                        d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z" />
+                </svg>
+            </a>
+
+            <div class="flex flex-row">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-send w-6 h-6" viewBox="0 0 16 16">
+                    <path
+                        d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                </svg>
+                <p
+                    class="bg-red-400 rounded-full h-6 w-6 flex items-center justify-center text-xs text-white absolute ml-[11px] top-12">
+                    1</p>
+            </div>
+
+            <div class="">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm306.7 69.1L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
+                </svg>
+            </div>
+
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-heart w-6 h-6" viewBox="0 0 16 16">
+                    <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                </svg>
+            </div>
+
+            <a href="profile.html" class="w-8 h-9 bg-gray-50 rounded-full">
+                <img class="w-8 h-9 object-cover rounded-full"
+                    src="https://images.unsplash.com/photo-1589156280159-27698a70f29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3386&q=80"
+                    alt="" />
+            </a>
+
+
+        </div>
+
+    </div>
+
+    <!-- Main Div-->
+    <div class="flex bg-white border-2 border-gray-400 rounded-md mx-48 mt-28  mb-6 ">
+        <!-- Lory -->
+        <!-- Left Div -->
+        <div class="flex-col gap-4 border-r-2 border-gray-200 w-[15rem]">
+            <div class="flex-col space-y-7  ">
+                
+                <a href="settings.html"><p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Edit profile</p></a>
+                <p class="text-md font-semibold text-gray-600 border-l-4 border-black px-8 h-8 ">Professional Account</p>
+                <p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Change Password</p>
+                <p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Apps and Website</p>
+                <p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Email and SMS</p>
+                <p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Privacy and Security</p>
+                <p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Login and Activity</p>
+                <p class="text-gray-400 text-md px-8 py-2 rounded-t h-10">Emails from Instagram</p>
+                </div>
+
+        </div>
+
+        <!--right div  -->
+        <div class="flex-col gap-4 justify-between flex-1 p-20">
+            <!--title  -->
+            <p class="text-2xl ml-4 font-bold pb-6">Professional Account</p>
+            <!--Category  -->
+            <div>
+                <section class="flex justify-center">
+                    <div class="w-1/2 p-4 flex">
+                        <div>
+                            <p class="font-semibold">Category</p>
+                        </div>
+                    </div>
+                    <div class="w-1/2 p-4 flex items-center">
+
+                        <div class="flex flex-col justify-center gap-2 ">
+                            <p class="font-light">Digital creator <br><span
+                                    class="font-semibold text-sm text-blue-600">Change</span></p>
+                            <label class="inline-flex items-center">
+                                <input type="checkbox" class="form-checkbox text-indigo-600" name="checkbox-group"
+                                    value="display">
+                                <span class="ml-2">Display category label</span>
+                            </label>
+                        </div>
+                </section>
+                <!--Email address  -->
+                <section class="flex justify-center">
+                    <div class="w-1/2 p-4 flex items-center ">
+                        <div>
+                            <p class="font-semibold">Email address</p>
+                        </div>
+                    </div>
+
+                    <div class="w-1/2 p-4 ">
+                        <div class="flex flex-col gap-2">
+                            <p class="font-semibold text-gray-500">Public business information</p>
+                            <input type="text" class=" w-[22.55rem] p-2 rounded-md border-2 border-gray-200"
+                                placeholder="Business email address">
+                        </div>
+                    </div>
+                </section>
+
+                <!--WhatsApp Number -->
+                <section class="flex justify-center">
+                    <div class="w-1/2 p-4 flex ">
+                        <div>
+                            <p class="font-semibold">WhatsApp Number</p>
+                        </div>
+                    </div>
+                    <div class="w-1/2 p-4 flex items-center">
+
+                        <div class="flex flex-col justify-center gap-2 ">
+                            <div class="relative border-2 border-gray-200 rounded-md w-[22.55rem]">
+                                <div class="relative rounded text-blue-500 border border-gray-300 flex">
+                                    <span class="text-xs px-3 font-semibold mt-3 ml-1">+</span>
+                                    <input type="tel" id="WhatsApp"
+                                        class="w-full p-2 rounded-md border-0 focus:ring-0 focus:border-0"
+                                        placeholder="|  WhatsApp Business number">
+                                </div>
+                            </div>
+                            <p class="text-gray-400 text-xs">Connect your WhatsApp Business account to Instagram to
+                                create ads that open WhatsApp chats. Your number will be shown to anyone who sends you a
+                                message through your ad.
+                                <br><br>
+                            </p>
+                            <div class="flex flex-row gap-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-megaphone" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z" />
+                                </svg>
+                                <p class="font-normal text-xs"><span class="font-bold">Whatsapp with business
+                                        features</span><br>
+                                    Keep your number, chats and contants while adding business features to
+                                    your<br>WhatsApp.<br> </p>
+                            </div>
+                            <div class="flex flex-row gap-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                </svg>
+                                <p class="font-normal text-xs"> <span class="font-bold">Drive sales from
+                                        conversations</span><br>
+                                    Manage messages to build lasting customer relatioships with the tools in<br>WhatsApp
+                                    Business.<br> </p>
+                            </div>
+
+                        </div>
+                </section>
+                <!--Phone Number  -->
+                <section class="flex justify-center">
+                    <div class="w-1/2 p-4 ">
+                        <div>
+                            <p class="font-semibold">Phone Number</p>
+                        </div>
+                    </div>
+                    <div class="w-1/2 p-4 flex items-center">
+                        <div class="flex flex-col justify-center gap-2 ">
+                            <div class="relative border-2 border-gray-200 rounded-md w-[22.55rem]">
+
+                                <div class="relative rounded text-blue-500 border border-gray-300 flex">
+                                    <span class="text-xs px-3 font-semibold">ZA <br> +</span>
+                                    <div class="border-l border-gray-300"></div>
+                                    <!-- Add a vertical line to separate the sections -->
+                                    <input type="tel" id="phonenumber"
+                                        class="w-full p-2 rounded-md border-0 focus:ring-0 focus:border-0"
+                                        placeholder="Phone number">
+                                </div>
+                            </div>
+
+                            <p class="text-gray-400 text-xs">You may receive SMS updates from instagram
+                                <br><br>
+                            </p>
+                            <div class="flex flex-col gap-4">
+                                <div>
+                                    <p class="text-lg text-black font-bold">How would you like to be reached?</p>
+                                </div>
+                                <div class="space-y-2 flex flex-col">
+                                    <!--Radio Buttons  -->
+                                    <label class="inline-flex items-center">
+                                        <input type="radio" class="form-radio text-indigo-600" name="radio-group"
+                                            value="call" checked>
+                                        <span class="ml-2">Call</span>
+                                    </label>
+
+                                    <label class="inline-flex items-center">
+                                        <input type="radio" class="form-radio text-indigo-600" name="radio-group"
+                                            value="text">
+                                        <span class="ml-2">Text</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="text-gray-400 text-xs">People will be able to call or text you on this number.
+                                Standard messaging rates apply </p>
+                            <!--Checkbox  -->
+                            <label class="inline-flex items-center">
+                                <input type="checkbox" class="form-checkbox text-indigo-600" name="checkbox-group"
+                                    value="contact">
+                                <span class="ml-2">Display contact info</span>
+                            </label>
+                            <p class="text-gray-400 text-xs">Contact buttons are only visible on your profile in the
+                                Instagram mobile app <br><br></p>
+                            <!--Submit button  -->
+                            <button class="bg-blue-500 text-white px-2 py-1 w-20 rounded-md hover:bg-blue-600">
+                                Submit
+                            </button>
+                            <p class="text-gray-400 text-xs">You can choose what information is displayed on your
+                                profile.
+                                You can change this at any time</p>
+                            <p class="font-medium text-sm text-blue-500">Switch to business account</p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
