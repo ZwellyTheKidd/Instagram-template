@@ -1,23 +1,23 @@
 @media all and (max-width: 475px){
-
+    
     .left-side {
-
         display: none;
     }
     .down-icon {
         display:inline-flex;
         padding-right: 20px;
+        padding-right: 20px;
     }
+    .footer-xs{
+        margin-bottom: 80px;
+    } 
+  
+} /*xs*/
+@media (max-width: 476px){
     .main-side {
         width: 100%;
     }
-    .footer-xs{
-
-        margin-bottom: 80px;
-
-    } 
-
-} /*xs*/
+}
 
 @media all and (min-width: 476px){
     
